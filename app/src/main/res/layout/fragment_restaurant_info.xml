@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+Programmer: Moses Troyer
+Class ID: mtroyer4551
+Lab 5
+CIS 4700: Mobile Commerce Development
+Spring 2016
+Due date: 4/24/16
+Date completed: 4/24/16
+*************************************
+* this holds the interface for
+* entering or changing the name
+* of a restaurant
+*************************************
+-->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:layout_width="199dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextRestaurantName"
+        android:layout_gravity="right"
+        android:layout_below="@+id/textViewRestaurantName"
+        android:layout_alignStart="@+id/textViewRestaurantName"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/editTextRestaurantName"
+        android:id="@+id/textViewRestaurantName"
+        android:textColor="@color/textBlack"
+        android:layout_marginTop="17dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="16dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/buttonSave"
+        android:id="@+id/buttonSave"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="46dp" />
+</RelativeLayout>

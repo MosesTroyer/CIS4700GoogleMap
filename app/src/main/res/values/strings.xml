@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Restaurant Lover</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_find_location">Use Current Location</string>
+    <string name="action_show_list">Show Restaurant List</string>
+    <string name="editTextRestaurantName">Restaurant Name</string>
+    <string name="buttonSave">Save</string>
+    <string name="toast_enter_name">Please enter a name for the restaurant.</string>
+</resources>

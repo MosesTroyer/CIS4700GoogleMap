@@ -1,0 +1,20 @@
+<!--
+Programmer: Moses Troyer
+Class ID: mtroyer4551
+Lab 5
+CIS 4700: Mobile Commerce Development
+Spring 2016
+Due date: 4/24/16
+Date completed: 4/24/16
+*************************************
+* used for the list of restuarants
+*************************************
+-->
+
+<android.support.v7.widget.RecyclerView
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/location_recycler_view"
+android:layout_width="match_parent"
+android:layout_height="match_parent">
+
+</android.support.v7.widget.RecyclerView>
